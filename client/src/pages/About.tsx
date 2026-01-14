@@ -46,7 +46,7 @@ export default function About() {
               <Zap className="w-6 h-6 text-teal-600 dark:text-teal-400" />
             </div>
             <span className="text-sm font-medium text-teal-600 dark:text-teal-400 uppercase tracking-wide">
-              EV Awareness
+              EV Awareness Hub
             </span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">

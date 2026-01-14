@@ -29,7 +29,7 @@ export function BenefitsSection() {
   ];
 
   return (
-    <section id="benefits" className="py-24 bg-background">
+    <section id="benefits" className="bg-background pb-24 pt-12">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-4">
