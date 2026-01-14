@@ -27,7 +27,7 @@ const translations = {
     'nav.language': 'Language',
     
     // Common
-    'common.evAwareness': 'EV Awareness',
+    'common.evAwareness': 'EV Awareness Hub',
     'common.learnMore': 'Learn More',
     'common.getStarted': 'Get Started',
     'common.yes': 'Yes',
@@ -139,7 +139,7 @@ const translations = {
     'footer.emailPlaceholder': 'Enter your email',
     'footer.subscribe': 'Subscribe',
     'footer.poweredBy': 'Powered by clean energy data',
-    'footer.copyright': '© 2025 EV Awareness. All rights reserved. Driving towards a sustainable future.',
+    'footer.copyright': '© 2025 EV Awareness Hub. All rights reserved. Driving towards a sustainable future.',
     'footer.successTitle': 'Success!',
     'footer.successDesc': 'You\'ve been subscribed to our newsletter.',
     
@@ -235,7 +235,7 @@ const translations = {
     'about.pageTitle': 'About Us',
     'about.pageSubtitle': 'Learn about our mission to accelerate the adoption of electric vehicles and create a sustainable future for transportation.',
     'about.projectTitle': 'About the Project',
-    'about.projectDesc1': 'The EV Awareness project is dedicated to educating and empowering individuals, businesses, and communities to embrace electric vehicle technology. Our comprehensive platform provides the tools, knowledge, and resources needed to make informed decisions about transitioning to electric mobility.',
+    'about.projectDesc1': 'The EV Awareness Hub project is dedicated to educating and empowering individuals, businesses, and communities to embrace electric vehicle technology. Our comprehensive platform provides the tools, knowledge, and resources needed to make informed decisions about transitioning to electric mobility.',
     'about.projectDesc2': 'Through interactive simulators, educational content, and practical guides, we aim to demystify electric vehicles and make the transition to sustainable transportation accessible to everyone. Our goal is to accelerate the adoption of EVs by addressing common concerns and providing clear, actionable information.',
     'about.objectivesTitle': 'Objectives',
     'about.objective1': 'Educate the public about the benefits, technology, and practicalities of electric vehicles through accessible and engaging content.',
@@ -361,7 +361,7 @@ const translations = {
     'nav.language': 'Langue',
     
     // Common
-    'common.evAwareness': 'Sensibilisation aux VE',
+    'common.evAwareness': 'Carrefour EV Awareness',
     'common.learnMore': 'En savoir plus',
     'common.getStarted': 'Commencer',
     'common.yes': 'Oui',
@@ -473,7 +473,7 @@ const translations = {
     'footer.emailPlaceholder': 'Entrez votre email',
     'footer.subscribe': 'S\'abonner',
     'footer.poweredBy': 'Propulsé par des données d\'énergie propre',
-    'footer.copyright': '© 2025 EV Awareness. Tous droits réservés. Vers un avenir durable.',
+    'footer.copyright': '© 2025 EV Awareness Hub. Tous droits réservés. Vers un avenir durable.',
     'footer.successTitle': 'Succès!',
     'footer.successDesc': 'Vous êtes maintenant abonné à notre newsletter.',
     
@@ -569,7 +569,7 @@ const translations = {
     'about.pageTitle': 'À propos de nous',
     'about.pageSubtitle': 'Découvrez notre mission pour accélérer l\'adoption des véhicules électriques et créer un avenir durable pour le transport.',
     'about.projectTitle': 'À propos du projet',
-    'about.projectDesc1': 'Le projet EV Awareness est dédié à l\'éducation et à l\'autonomisation des individus, des entreprises et des communautés pour adopter la technologie des véhicules électriques. Notre plateforme complète fournit les outils, les connaissances et les ressources nécessaires pour prendre des décisions éclairées sur la transition vers la mobilité électrique.',
+    'about.projectDesc1': 'Le projet EV Awareness Hub est dédié à l\'éducation et à l\'autonomisation des individus, des entreprises et des communautés pour adopter la technologie des véhicules électriques. Notre plateforme complète fournit les outils, les connaissances et les ressources nécessaires pour prendre des décisions éclairées sur la transition vers la mobilité électrique.',
     'about.projectDesc2': 'Grâce à des simulateurs interactifs, du contenu éducatif et des guides pratiques, nous visons à démystifier les véhicules électriques et à rendre la transition vers un transport durable accessible à tous. Notre objectif est d\'accélérer l\'adoption des VE en répondant aux préoccupations courantes et en fournissant des informations claires et exploitables.',
     'about.objectivesTitle': 'Objectifs',
     'about.objective1': 'Éduquer le public sur les avantages, la technologie et les aspects pratiques des véhicules électriques à travers un contenu accessible et engageant.',
@@ -714,4 +714,3 @@ export function useLanguage() {
   }
   return context;
 }
-

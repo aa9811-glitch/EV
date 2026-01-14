@@ -2,8 +2,20 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { useState, useEffect } from "react";
 
+type VehicleModel = {
+  name: string;
+  specs: Record<string, string>;
+};
+
+type VehicleMake = {
+  name: string;
+  models: Record<string, VehicleModel>;
+};
+
+type VehicleData = Record<string, VehicleMake>;
+
 // Mock Database for Vehicle Specs
-const vehicleData = {
+const vehicleData: VehicleData = {
   tesla: {
     name: "Tesla",
     models: {
@@ -109,16 +121,14 @@ export default function VehicleSelection() {
   }, []);
 
   // Get available models for selected make
-  const availableModels = selectedMake && vehicleData[selectedMake as keyof typeof vehicleData]
-    ? vehicleData[selectedMake as keyof typeof vehicleData].models
-    : null;
+  const availableModels = selectedMake ? vehicleData[selectedMake]?.models ?? null : null;
 
   // Get vehicle summary
   const getVehicleSummary = () => {
-    if (selectedMake && selectedModel && vehicleData[selectedMake as keyof typeof vehicleData]) {
-      const make = vehicleData[selectedMake as keyof typeof vehicleData];
-      const model = make.models[selectedModel as keyof typeof make.models];
-      if (model) {
+    if (selectedMake && selectedModel) {
+      const make = vehicleData[selectedMake];
+      const model = make?.models[selectedModel];
+      if (model?.specs) {
         return Object.entries(model.specs)
           .map(([key, value]) => `${key.padEnd(30)}: ${value}`)
           .join("\n");
@@ -511,4 +521,3 @@ export default function VehicleSelection() {
     </div>
   );
 }
-
